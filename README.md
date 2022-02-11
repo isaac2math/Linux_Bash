@@ -23,11 +23,11 @@ see the following command using arm64 ubuntu as an example:
 
 <br>
 
-    *docker run --name ubuntu \ 
+    docker run --name ubuntu \ 
     -v /Users/ning/Dropbox:/root/Dropbox \ 
     -v /Users/ning/Downloads:/root/Downloads \ 
     -v /Users/ning/Documents:/root/Documents \ 
-    arm64v8/ubuntu:20.04*
+    arm64v8/ubuntu:20.04
 
 ## step 2: run docker_setup.sh
 
@@ -37,7 +37,7 @@ Before you start, save docker_check.sh and docker_setup.sh on your Documents fol
 
 <br>
 
-    *docker exec ubuntu bash /root/Documents/docker_setup.sh*
+    docker exec ubuntu bash /root/Documents/docker_setup.sh
 
 or 
 
@@ -45,7 +45,7 @@ or
 
 <br>
 
-    *bash /root/Documents/docker_setup.sh*
+    bash /root/Documents/docker_setup.sh
 
 # step 3: routine update check
 
@@ -55,7 +55,7 @@ After you finish the previous step, you can automatically do the Linux/R/Julia/P
 
 <br>
 
-    *docker exec ubuntu bash /root/Documents/docker_check.sh*
+    docker exec ubuntu bash /root/Documents/docker_check.sh
 
 or 
 
@@ -63,4 +63,4 @@ or
   
 <br>
 
-    *bash /root/Documents/docker_check.sh*
+    bash /root/Documents/docker_check.sh
