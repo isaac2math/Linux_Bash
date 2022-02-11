@@ -24,10 +24,10 @@ see the following command using arm64 ubuntu as an example:
 <br>
 
     docker run --name ubuntu \ 
-    -v /Users/ning/Dropbox:/root/Dropbox \ 
-    -v /Users/ning/Downloads:/root/Downloads \ 
-    -v /Users/ning/Documents:/root/Documents \ 
-    arm64v8/ubuntu:20.04
+        -v /Users/ning/Dropbox:/root/Dropbox \ 
+        -v /Users/ning/Downloads:/root/Downloads \ 
+        -v /Users/ning/Documents:/root/Documents \ 
+        arm64v8/ubuntu:20.04
 
 ## step 2: run docker_setup.sh
 
